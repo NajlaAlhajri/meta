@@ -9,7 +9,7 @@ RUN wget -c https://github.com/slds-lmu/yahpo_data/archive/refs/tags/v1.0.zip &&
     rm -rf v1.0.zip
 
 RUN mkdir dump
-WORKDIR /home/dump
+WORKDIR /Users/najlaalhajri
 COPY . .
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
